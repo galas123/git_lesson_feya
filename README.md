@@ -5,8 +5,7 @@
 
 Список модулей:
 1. git_basics - основы гит
-2. git_branches - ветки в гите и работа с ними
-3. maven - система сборки maven
-4. junit - основы junit необходимые для работы с тестами
-5. libs_practice - практика в использовании библиотек guava/apache commons/hamcrest
-6. final_practice - финальное упражнение
+2. maven - система сборки maven
+3. junit - основы junit необходимые для работы с тестами
+4. libs_practice - практика в использовании библиотек guava/apache commons/hamcrest
+5. final_practice - финальное упражнение
