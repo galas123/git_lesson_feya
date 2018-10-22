@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -33,6 +34,11 @@ public class LibsPracticeTest {
     @Test
     public void arrayHasElementNegativeTest() {
         assertFalse(libsPractice.arrayContainsElement(new Integer[]{1, 2, 3, 4}, -1));
+    }
+
+    @Test
+    public void getPositiveValuesTest() {
+        assertTrue(libsPractice.getPositiveValues(new Integer[]{1, 0, -4, 15}).size() == 2);
     }
 
 }
