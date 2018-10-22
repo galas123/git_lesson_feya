@@ -1,6 +1,9 @@
 package ru.yandex.webtestslessons;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LibsPractice {
 
     //Переписать метод используя Stream API
@@ -20,5 +23,16 @@ public class LibsPractice {
             }
         }
         return false;
+    }
+
+    //Переписать метод используя Stream API
+    public List<String> getPositiveValues(Integer[] numbers) {
+        List<String> listOfPositiveValues = new ArrayList();
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] > 0) {
+                listOfPositiveValues.add(numbers[i].toString());
+            }
+        }
+        return listOfPositiveValues;
     }
 }
