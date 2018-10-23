@@ -6,6 +6,10 @@
 Список модулей:
 1. git_basics - основы гит
 2. maven - система сборки maven
-3. junit - основы junit необходимые для работы с тестами
-4. libs_practice - практика в использовании библиотек guava/apache commons/hamcrest
-5. final_practice - финальное упражнение
+3. libs_practice - практика в использовании библиотек guava/apache commons/hamcrest
+4. junit - основы junit необходимые для работы с тестами
+5. xpath_css - практика в работе с xpath и css локаторами
+
+В качестве завершения выполнения задания необходимо отвести бранч и создать pull request и поставить в Assignee vananos@ или sudar@
+
+После всего установить всё необходимое из модуля after_all и договориться с vananos@ или sudar@ о лекции о структуре наших тестов и проектов
